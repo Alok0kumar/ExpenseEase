@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExpenseEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ExpenseEase 💸</h1>
+  <div class="container">
+    <input type="text" id="desc" placeholder="Expense description">
+    <input type="number" id="amount" placeholder="Total Amount">
+
+    <select id="people">
+      <option value="" disabled selected>Number of People</option>
+    </select>
+    <button id="addNamesBtn">Add Names</button>
+
+    <div id="namesContainer"></div>
+
+    <button id="splitBtn">Split Expense</button>
+    <button id="filterBtn" class="filter-btn">Show Only Unpaid</button>
+
+    <div class="result" id="result"></div>
+
+    <button class="download-btn" id="downloadBtn">Download JSON</button>
+    <input type="file" id="importFile" accept="application/JSON">
+    <button class="import-btn" id="importBtn">Import JSON</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
