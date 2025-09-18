@@ -63,3 +63,6 @@ style.css: The CSS file that contains all the styles for the application, making
 script.js: The JavaScript file that powers the application's logic, including calculations, event handling, and dynamic content updates.
 
 This README provides a clear overview for anyone visiting your project's repository. Let me know if you'd like any sections expanded or modified!
+
+
+HI i made a change
